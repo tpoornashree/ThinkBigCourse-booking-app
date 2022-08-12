@@ -5,36 +5,40 @@ const Footer = () => {
     <div className="footer">
       <div className="fLists">
         <ul className="fList">
-          <li className="fListItem">Countries</li>
-          <li className="fListItem">Regions</li>
-          <li className="fListItem">Cities</li>
-          <li className="fListItem">Districts</li>
-          <li className="fListItem">Airports</li>
-          <li className="fListItem">Hotels</li>
+          <li className="fListItem"> <h3>Part Time Courses Offered</h3></li>
+          <li className="fListItem">Machine Learning</li>
+          <li className="fListItem">Digital Marketing</li>
+          <li className="fListItem">Cyber Security</li>
+          <li className="fListItem">Sales and business development</li>
+          <li className="fListItem">UI/UX design</li>
+          <li className="fListItem">TB Classroom Recordings</li>
         </ul>
         <ul className="fList">
-          <li className="fListItem">Homes </li>
-          <li className="fListItem">Apartments </li>
-          <li className="fListItem">Resorts </li>
-          <li className="fListItem">Villas</li>
-          <li className="fListItem">Hostels</li>
-          <li className="fListItem">Guest houses</li>
+        <li className="fListItem"> <h3>Executive Education</h3></li>
+          <li className="fListItem">HR and Talent Management </li>
+          <li className="fListItem">Blockchain </li>
+          <li className="fListItem">Leadership and Interpersonal skills </li>
+          <li className="fListItem">Business Management and strategy</li>
+          <li className="fListItem">Data Mining</li>
+          <li className="fListItem">Quantum Computing</li>
         </ul>
         <ul className="fList">
-          <li className="fListItem">Unique places to stay </li>
-          <li className="fListItem">Reviews</li>
-          <li className="fListItem">Unpacked: Travel articles </li>
-          <li className="fListItem">Travel communities </li>
-          <li className="fListItem">Seasonal and holiday deals </li>
+        <li className="fListItem"> <h3>Engineering</h3></li>
+          <li className="fListItem">Aerospace Engineering </li>
+          <li className="fListItem">Biomedical Engineering</li>
+          <li className="fListItem">Chemical Engineering</li>
+          <li className="fListItem">Civil Engineering</li>
+          <li className="fListItem">Electrical Engineering</li>
         </ul>
         <ul className="fList">
-          <li className="fListItem">Car rental </li>
-          <li className="fListItem">Flight Finder</li>
-          <li className="fListItem">Restaurant reservations </li>
-          <li className="fListItem">Travel Agents </li>
+        <li className="fListItem"> <h3>Others</h3></li>
+          <li className="fListItem">Azure </li>
+          <li className="fListItem">DevOps</li>
+          <li className="fListItem">Django </li>
+          <li className="fListItem">Python </li>
         </ul>
         <ul className="fList">
-          <li className="fListItem">Curtomer Service</li>
+          <li className="fListItem">Customer Service</li>
           <li className="fListItem">Partner Help</li>
           <li className="fListItem">Careers</li>
           <li className="fListItem">Sustainability</li>
@@ -44,7 +48,7 @@ const Footer = () => {
           <li className="fListItem">Terms & conditions</li>
         </ul>
       </div>
-      <div className="fText">Copyright © 2022 Lamabooking.</div>
+      <div className="fText">Copyright © 2022 ThinkBig StudyBooking. Done by <a href="https://github.com/tpoornashree">Poornashree</a></div>
     </div>
   );
 };

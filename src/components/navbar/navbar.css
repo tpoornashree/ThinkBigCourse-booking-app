@@ -1,6 +1,6 @@
 .navbar{
-  height: 50px;
-  background-color: #003580;
+  height: 70px;
+  background-color: purple;
   display: flex;
   justify-content: center;
 }
@@ -21,7 +21,8 @@
 .navButton{
   margin-left: 20px;
   border: none;
-  padding: 5px 10px;
+  padding: 10px 10px;
   cursor: pointer;
-  color: #003580;
+  color: purple;
+  background-color: cyan;
 }

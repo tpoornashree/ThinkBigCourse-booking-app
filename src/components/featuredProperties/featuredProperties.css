@@ -20,7 +20,7 @@
 }
 
 .fpName{
-  color: #333;
+  color: black;
   font-weight: bold;
 }
 
@@ -33,7 +33,7 @@
 }
 
 .fpRating>button{
-  background-color: #003580;
+  background-color: purple;
   color: white;
   border: none;
   padding: 3px;

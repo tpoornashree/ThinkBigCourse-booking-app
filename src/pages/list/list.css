@@ -13,7 +13,7 @@
 
 .listSearch {
   flex: 1;
-  background-color: #febb02;
+  background-color: magenta;
   padding: 10px;
   border-radius: 10px;
   position: sticky;
@@ -22,7 +22,7 @@
 }
 
 .lsTitle{
-  font-size: 20px;
+  font-size: 25px;
   color: #555;
   margin-bottom: 10px;
 }
@@ -46,7 +46,7 @@
 .lsItem>span{
   height: 30px;
   padding: 5px;
-  background-color: white;
+  background-color: lightskyblue;
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -60,8 +60,8 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 10px;
-  color: #555;
-  font-size: 12px;
+  color: black;
+  font-size: 15px;
 }
 
 .lsOptionInput{
@@ -70,7 +70,7 @@
 
 .listSearch>button{
   padding: 10px;
-  background-color: #0071c2;
+  background-color: red;
   color: white;
   border: none;
   width: 100%;
@@ -79,5 +79,5 @@
 }
 
 .listResult {
-  flex: 3;
+  flex: 2;
 }

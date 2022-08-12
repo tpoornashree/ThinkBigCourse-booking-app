@@ -1,10 +1,11 @@
 import {
-  faBed,
+  faGraduationCap,
   faCalendarDays,
   faCar,
   faPerson,
-  faPlane,
+  faLanguage,
   faTaxi,
+  faHeadphones
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./header.css";
@@ -56,42 +57,46 @@ const Header = ({ type }) => {
       >
         <div className="headerList">
           <div className="headerListItem active">
-            <FontAwesomeIcon icon={faBed} />
-            <span>Stays</span>
+            <FontAwesomeIcon icon={faGraduationCap} />
+            <span>Courses</span>
           </div>
           <div className="headerListItem">
-            <FontAwesomeIcon icon={faPlane} />
-            <span>Flights</span>
+            <FontAwesomeIcon icon={faLanguage} />
+            <span>Languages</span>
           </div>
           <div className="headerListItem">
             <FontAwesomeIcon icon={faCar} />
-            <span>Car rentals</span>
+            <span>Career Paths</span>
           </div>
           <div className="headerListItem">
-            <FontAwesomeIcon icon={faBed} />
-            <span>Attractions</span>
+            <FontAwesomeIcon icon={faGraduationCap} />
+            <span>Contests</span>
           </div>
           <div className="headerListItem">
             <FontAwesomeIcon icon={faTaxi} />
-            <span>Airport taxis</span>
+            <span>Jobs and vacancies</span>
+          </div>
+          <div className="headerListItem">
+            <FontAwesomeIcon icon={faHeadphones} />
+            <span>ThinkBigTalks</span>
           </div>
         </div>
         {type !== "list" && (
           <>
             <h1 className="headerTitle">
-              A lifetime of discounts? It's Genius.
+            A revolutionary way to educate. A Journey to Excellence.
             </h1>
             <p className="headerDesc">
-              Get rewarded for your travels – unlock instant savings of 10% or
-              more with a free Lamabooking account
+              Get rewarded for your courses – unlock instant courses and 
+              more with a free ThinkBig Study account.
             </p>
             <button className="headerBtn">Sign in / Register</button>
             <div className="headerSearch">
               <div className="headerSearchItem">
-                <FontAwesomeIcon icon={faBed} className="headerIcon" />
+                <FontAwesomeIcon icon={faGraduationCap} className="headerIcon" />
                 <input
                   type="text"
-                  placeholder="Where are you going?"
+                  placeholder="What are you looking for?"
                   className="headerSearchInput"
                   onChange={(e) => setDestination(e.target.value)}
                 />
@@ -121,11 +126,11 @@ const Header = ({ type }) => {
                 <span
                   onClick={() => setOpenOptions(!openOptions)}
                   className="headerSearchText"
-                >{`${options.adult} adult · ${options.children} children · ${options.room} room`}</span>
+                >{`${options.adult} hours · ${options.children} days · ${options.room} months`}</span>
                 {openOptions && (
                   <div className="options">
                     <div className="optionItem">
-                      <span className="optionText">Adult</span>
+                      <span className="optionText">hours</span>
                       <div className="optionCounter">
                         <button
                           disabled={options.adult <= 1}
@@ -146,7 +151,7 @@ const Header = ({ type }) => {
                       </div>
                     </div>
                     <div className="optionItem">
-                      <span className="optionText">Children</span>
+                      <span className="optionText">days</span>
                       <div className="optionCounter">
                         <button
                           disabled={options.children <= 0}
@@ -167,7 +172,7 @@ const Header = ({ type }) => {
                       </div>
                     </div>
                     <div className="optionItem">
-                      <span className="optionText">Room</span>
+                      <span className="optionText">months</span>
                       <div className="optionCounter">
                         <button
                           disabled={options.room <= 1}
@@ -192,7 +197,7 @@ const Header = ({ type }) => {
               </div>
               <div className="headerSearchItem">
                 <button className="headerBtn" onClick={handleSearch}>
-                  Search
+                  Search for courses
                 </button>
               </div>
             </div>

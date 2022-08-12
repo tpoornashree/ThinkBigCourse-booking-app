@@ -5,57 +5,57 @@ const PropertyList = () => {
     <div className="pList">
       <div className="pListItem">
         <img
-          src="https://cf.bstatic.com/xdata/images/xphoto/square300/57584488.webp?k=bf724e4e9b9b75480bbe7fc675460a089ba6414fe4693b83ea3fdd8e938832a6&o="
+          src="https://cdn.educba.com/academy/wp-content/uploads/2019/10/types-of-machine-learning-algorithm.png"
           alt=""
           className="pListImg"
         />
         <div className="pListTitles">
-          <h1>Hotels</h1>
-          <h2>233 hotels</h2>
+          <h1>Machine Learning</h1>
+          <h2>12 courses</h2>
         </div>
       </div>
       <div className="pListItem">
         <img
-          src="https://cf.bstatic.com/static/img/theme-index/carousel_320x240/card-image-apartments_300/9f60235dc09a3ac3f0a93adbc901c61ecd1ce72e.jpg"
+          src="https://image.slidesharecdn.com/digimarketingsession1-160720153149/85/digi-marketing-session-1-18-320.jpg?cb=1469028724"
           alt=""
           className="pListImg"
         />
         <div className="pListTitles">
-          <h1>Apartments</h1>
-          <h2>2331 hotels</h2>
+          <h1>Digital Marketing</h1>
+          <h2>23 courses</h2>
         </div>
       </div>
       <div className="pListItem">
         <img
-          src="https://cf.bstatic.com/static/img/theme-index/carousel_320x240/bg_resorts/6f87c6143fbd51a0bb5d15ca3b9cf84211ab0884.jpg"
+          src="https://cdn.ttgtmedia.com/rms/onlineImages/security-white_gray_black_hat_mobile.png"
           alt=""
           className="pListImg"
         />
         <div className="pListTitles">
-          <h1>Resorts</h1>
-          <h2>2331 hotels</h2>
+          <h1>Ethical Hacking</h1>
+          <h2>13 courses</h2>
         </div>
       </div>
       <div className="pListItem">
         <img
-          src="https://cf.bstatic.com/static/img/theme-index/carousel_320x240/card-image-villas_300/dd0d7f8202676306a661aa4f0cf1ffab31286211.jpg"
+          src="https://global-uploads.webflow.com/59e16042ec229e00016d3a66/613157f891f7741dd99a68b2_data%20visualization%20tips_blog%20listing.jpg"
           alt=""
           className="pListImg"
         />
         <div className="pListTitles">
-          <h1>Villas</h1>
-          <h2>2331 hotels</h2>
+          <h1>Data Visualisation Using Python</h1>
+          <h2>12 courses</h2>
         </div>
       </div>
       <div className="pListItem">
         <img
-          src="https://cf.bstatic.com/static/img/theme-index/carousel_320x240/card-image-chalet_300/8ee014fcc493cb3334e25893a1dee8c6d36ed0ba.jpg"
+          src="https://www.wikihow.com/images/thumb/5/51/Understand-Probability-Step-2.jpg/v4-460px-Understand-Probability-Step-2.jpg.webp"
           alt=""
           className="pListImg"
         />
         <div className="pListTitles">
-          <h1>Cabins</h1>
-          <h2>2331 hotels</h2>
+          <h1>Probability and Probability Distribution</h1>
+          <h2>10 courses</h2>
         </div>
       </div>
     </div>

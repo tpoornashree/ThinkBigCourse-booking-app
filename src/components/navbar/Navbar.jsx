@@ -4,10 +4,10 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="navContainer">
-        <span className="logo">lamabooking</span>
+      <button className="navButton">Join as a new learner!</button>
+      <button className="navButton">Login with existing account</button>
         <div className="navItems">
-          <button className="navButton">Register</button>
-          <button className="navButton">Login</button>
+          <span className="logo">ThinkBig Studybooking</span>
         </div>
       </div>
     </div>

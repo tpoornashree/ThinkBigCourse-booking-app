@@ -1,22 +1,32 @@
+import { Navigate } from "react-router-dom";
 import "./searchItem.css";
+import { useNavigate } from "react-router-dom";
+
+
 
 const SearchItem = () => {
+
+
+  const navigate = useNavigate();
+  const handleme = () => {
+    navigate("/hotels/1");
+  };
   return (
     <div className="searchItem">
       <img
-        src="https://cf.bstatic.com/xdata/images/hotel/square600/261707778.webp?k=fa6b6128468ec15e81f7d076b6f2473fa3a80c255582f155cae35f9edbffdd78&o=&s=1"
+        src="https://cdn.educba.com/academy/wp-content/uploads/2019/11/full-stack-web-developer.png"
         alt=""
         className="siImg"
       />
       <div className="siDesc">
-        <h1 className="siTitle">Tower Street Apartments</h1>
-        <span className="siDistance">500m from center</span>
-        <span className="siTaxiOp">Free airport taxi</span>
+        <h1 className="siTitle">Full Stack Dev</h1>
+        <span className="siDistance">Not just 100% guarantee course, it's a career building program to standout from crowd.</span>
+        <span className="siTaxiOp">Free Preview</span>
         <span className="siSubtitle">
-          Studio Apartment with Air conditioning
+        Learn Full Stack Web Development with Node.js with Ample Projects for Hands-on Practice.
         </span>
         <span className="siFeatures">
-          Entire studio • 1 bathroom • 21m² 1 full bed
+        Gets hands-on training by building projects like E-commerce platforms
         </span>
         <span className="siCancelOp">Free cancellation </span>
         <span className="siCancelOpSubtitle">
@@ -31,7 +41,7 @@ const SearchItem = () => {
         <div className="siDetailTexts">
           <span className="siPrice">$112</span>
           <span className="siTaxOp">Includes taxes and fees</span>
-          <button className="siCheckButton">See availability</button>
+          <button className="siCheckButton" onClick={handleme}>See availability</button>
         </div>
       </div>
     </div>
